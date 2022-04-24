@@ -1,0 +1,248 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(221, 235, 241);
+}
+    /* ---------------------------------- TOP-BAR ---------------------------------- */
+.top-bar{
+    height: 30px;
+    background-color: #4c1130;
+    font-size: 12px;
+    color: white;
+}
+
+.edit-row{
+    height: 30px;
+    padding: 3px 0px;
+    opacity: 0.2;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.edit{
+    float: right;
+}
+
+.social{
+    padding: 0px 2px;
+}
+.contact-icon{
+    padding-right: 4px;
+}
+.remove-padding{
+    padding: 0;
+}
+.add-tb-padding,.inner-part{
+    padding: 75px 0px;
+}
+
+    /* ---------------------------------- NAVBAR ---------------------------------- */
+.new-nav{
+    background: #741b47;
+    border: none;
+    border-radius: 0;
+    opacity: 0.96;
+}
+.navbar-brand{
+    padding: 5px 0px;
+}
+
+.navbar-right>li>a{
+    /* text-transform: uppercase; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white !important;
+}
+
+.navbar-right>li>a:hover{
+    background-color: #4c1130 !important;
+}
+
+.navbar-right > .active2 > a,
+.navbar-right > .active2 > a:hover,
+.active2>a,
+.active2>a:hover{
+    background-color: #4c1130 !important;
+    color: white !important;
+}
+
+/* ---------------------------------- article ---------------------------------- */
+.image1{
+   background: url(../img/sbg.jpg) no-repeat center fixed;
+}
+.image2{
+    background: url(../img/acc.jpg) no-repeat center fixed; 
+}
+.image3{
+    background: url(../img/students-1807505_1920.jpg) no-repeat center fixed; 
+}
+.image1,.image2,.image3{
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  height: 100vh;
+}
+.text-center-carousel{
+    padding-bottom: 250px;
+}
+
+.sub-part{
+    margin: auto 90px;
+}
+
+.sub-part>h2,p,.next-part>h2{
+    text-align: center;
+}
+/* .sub-part>p{
+    text-align: justify;
+} */
+
+.img-center {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.container-space{
+    margin: 20px 0px;
+}
+.line-height-declare{
+    line-height: 1.7em;
+}
+.callout-color{
+    padding: 17px 5px 0 65px;
+    background-image: url(../img/callout-bubble.png);
+    height: 150px;
+}
+
+/* ---------------------------------- FOOTER ---------------------------------- */
+.footer{
+    background-color: #4c1130;
+    padding: 20px 10px;
+    margin-top: 100px;
+}
+
+.select-img>img{
+    float: right;
+    padding: 10px 5px;
+}
+
+.text-style{
+    color: white;
+}
+.a-selector>a{
+    text-decoration: none;
+}
+.brand-name>h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.it{
+    color: #4c1130;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-style-sth{
+    color: white;
+    padding-right: 80px;
+}
+
+.bottom-bar{
+    background-color: #741b47;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 5px 0px;
+}
+
+/* ------------------------------------------------------ ADMISSION PAGE ------------------------------------------------------ */
+.add-margin-top{
+    margin-top: 100px;
+}
+
+.add-margin-top-2{
+    margin-top: 60px;
+}
+
+.add-margin-top>h2,.add-margin-top>button{
+    text-align: center;
+}
+
+/* BUTTON */
+
+.button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #741b47;
+}
+
+.button:hover{
+    background-color: #741b47;
+    color: white;
+}
+.text-center{
+    padding-bottom: 0px;
+}
+
+.align-element{
+    margin: auto 25%;
+    margin-top: 30px;
+}
+
+.thumbnail{
+    padding: 20px 5px;
+}
+
+.a-selector-2>a{
+    cursor: pointer;
+}
+
+.align-center{
+    margin: auto 25%;
+}
+.pagination{
+    display: inline-block;
+}
+.pagination>li>a{
+    color: #4c1130;
+}
+.form-edit{
+    border-radius: 4px !important;
+    border: 1px solid #741b47 !important;
+
+}
+#textarea{
+    margin: 20px 0px;
+    border: 1px solid #741b47;
+    width: 100%;
+    border-radius: 4px;
+}
+.wrapper{
+    margin: auto 25%;
+}
+.button-send{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white; 
+    color: #741b47; 
+    border: 2px solid #741b47;
+    margin: auto 40%;
+}
+.button-send:hover{
+    background-color: #741b47;
+    color: white;
+}
